@@ -1,0 +1,10 @@
+[build]
+  command = "npx eleventy"
+  publish = "_site"
+
+[dev]
+  command = "npx eleventy --serve"
+  targetPort = 8080
+  port = 8888
+
+

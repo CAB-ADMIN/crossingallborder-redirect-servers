@@ -1,0 +1,4 @@
+[
+  { "from": "/*", "to": "/?redirect=true&from=3&reason=1", "status": 301 } 
+]
+
