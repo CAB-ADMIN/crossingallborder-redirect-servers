@@ -57,21 +57,6 @@ Add or edit JSON files in `src/_data/redirects/` for each domain/server. Example
 ]
 ```
 
-## License
-
-See repository.
-
-## Project Structure
-
-- src/
-	- _includes/ … Nunjucks layout 
-	- assets/
-		- css/ … global styles and section styles
-		- js/ … site scripts
-- _site/ … build output (do not edit)
-- .eleventy.js … Eleventy config
-- package.json … scripts and metadata
-
 ## Development
 
 Prerequisites: Node.js 18+ (LTS recommended)
