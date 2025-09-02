@@ -8,5 +8,6 @@
   { "from": "/our-history", "to": "about-us/our-story/?redirect=true&from=0&page=Our History&reason=0", "status": 301 },
   { "from": "/support", "to": "donations/financial/?redirect=true&from=0&page=Support&reason=0", "status": 301 },
   { "from": "/ministries", "to": "/ministries/international/?redirect=true&from=0&page=Ministries&reason=0", "status": 301 },
+  { "from": "/", "to": "/?redirect=true&from=0&page=unknown&reason=0", "status": 301 },
   { "from": "/*", "to": "/?redirect=true&from=0&page=unknown&reason=0", "status": 301 }
 ]

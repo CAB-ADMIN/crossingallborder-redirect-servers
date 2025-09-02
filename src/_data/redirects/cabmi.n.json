@@ -1,3 +1,4 @@
 [
+  { "from": "/", "to": "/?redirect=true&from=4&reason=1", "status": 301 },
   { "from": "/*", "to": "/?redirect=true&from=4&reason=1", "status": 301 } 
 ]
