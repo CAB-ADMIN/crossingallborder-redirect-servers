@@ -17,7 +17,7 @@ module.exports = function(eleventyConfig) {
       console.warn(`Redirects file not found for siteKey: ${siteKey}`);
     }
     // Convert rules to Netlify _redirects format
-    const redirectsContent = rules.map(r => `${r.from} https://crossingallborders.org${r.to} ${r.status}`).join('\n');
+    const redirectsContent = rules.map(r => `${r.from} https://crossingallborders.org${r.to} ${r.status}!`).join('\n');
     const siteDir = path.join(__dirname, '_site');
     if (!fs.existsSync(siteDir)) {
       fs.mkdirSync(siteDir, { recursive: true });
