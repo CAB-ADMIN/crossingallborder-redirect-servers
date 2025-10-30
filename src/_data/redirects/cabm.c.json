@@ -1,6 +1,5 @@
 [
-  { "from": "http://crossingallbordersministry.com/*", "to": "/:splat?redirect=true&from=0&page=unknown&reason=0", "status": 301 },
-  { "from": "http://www.crossingallbordersministry.com/*", "to": "/:splat?redirect=true&from=0&page=unknown&reason=0", "status": 301 },
+  { "from": "/*", "to": "/", "status": 301 },
   { "from": "/volunteer", "to": "/volunteer/?redirect=true&from=0&page=Volunteer&reason=0", "status": 301 },
   { "from": "/contact-us-2", "to": "/contact/?redirect=true&from=0&page=ContactUs&reason=0", "status": 301 },
   { "from": "/national", "to": "/ministries/national/?redirect=true&from=0&page=National&reason=0", "status": 301 },
@@ -11,6 +10,9 @@
   { "from": "/support", "to": "/donations/financial/?redirect=true&from=0&page=Support&reason=0", "status": 301 },
   { "from": "/ministries", "to": "/ministries/international/?redirect=true&from=0&page=Ministries&reason=0", "status": 301 },
   { "from": "/", "to": "/?redirect=true&from=0&page=unknown&reason=0", "status": 301 },
+  { "from": "/*", "to": "/:splat?redirect=true&from=0&page=unknown&reason=0", "status": 301 },
   { "from": "https://crossingallbordersministry.com/*", "to": "/:splat?redirect=true&from=0&page=unknown&reason=0", "status": 301 },
-  { "from": "https://www.crossingallbordersministry.com/*", "to": "/:splat?redirect=true&from=0&page=unknown&reason=0", "status": 301 }
+  { "from": "http://crossingallbordersministry.com/*", "to": "/:splat?redirect=true&from=0&page=unknown&reason=0", "status": 301 },
+  { "from": "https://www.crossingallbordersministry.com/*", "to": "/:splat?redirect=true&from=0&page=unknown&reason=0", "status": 301 },
+  { "from": "http://www.crossingallbordersministry.com/*", "to": "/:splat?redirect=true&from=0&page=unknown&reason=0", "status": 301 }
 ]
