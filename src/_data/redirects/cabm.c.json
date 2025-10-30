@@ -1,5 +1,5 @@
 [
-  { "from": "/*", "to": "/", "status": 301 },
+  { "from": "/*", "to": "/:splat", "status": 301 },
   { "from": "/volunteer", "to": "/volunteer/?redirect=true&from=0&page=Volunteer&reason=0", "status": 301 },
   { "from": "/contact-us-2", "to": "/contact/?redirect=true&from=0&page=ContactUs&reason=0", "status": 301 },
   { "from": "/national", "to": "/ministries/national/?redirect=true&from=0&page=National&reason=0", "status": 301 },
