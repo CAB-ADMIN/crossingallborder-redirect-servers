@@ -1,11 +1,11 @@
 [
   { "from": "/volunteer", "to": "/volunteer/?redirect=true&from=0&page=Volunteer&reason=0", "status": 301 },
-  { "from": "/contact-us-2", "to": "/contact/?redirect=true&from=0&page=Contact Us&reason=0", "status": 301 },
+  { "from": "/contact-us-2", "to": "/contact/?redirect=true&from=0&page=ContactUs&reason=0", "status": 301 },
   { "from": "/national", "to": "/ministries/national/?redirect=true&from=0&page=National&reason=0", "status": 301 },
   { "from": "/sewing", "to": "/ministries/sewing/?redirect=true&from=0&page=Sewing&reason=0", "status": 301 },
   { "from": "/international", "to": "/ministries/international/?redirect=true&from=0&page=International&reason=0", "status": 301 },
   { "from": "/medical", "to": "/ministries/medical/?redirect=true&from=0&page=Medical&reason=0", "status": 301 },
-  { "from": "/our-history", "to": "/about-us/our-story/?redirect=true&from=0&page=Our History&reason=0", "status": 301 },
+  { "from": "/our-history", "to": "/about-us/our-story/?redirect=true&from=0&page=OurHistory&reason=0", "status": 301 },
   { "from": "/support", "to": "/donations/financial/?redirect=true&from=0&page=Support&reason=0", "status": 301 },
   { "from": "/ministries", "to": "/ministries/international/?redirect=true&from=0&page=Ministries&reason=0", "status": 301 },
   { "from": "/", "to": "/?redirect=true&from=0&page=unknown&reason=0", "status": 301 },
